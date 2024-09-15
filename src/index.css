@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.dark-toast .Toastify__toast {
+    background-color:#1e293b; /* or any dark color */
+    color: white;
+  }
+
+  .dark-toast .Toastify__toast--success {
+    background-color: #1e293b; /* Success color */
+    color: white;
+  }
+  .dark-toast .Toastify__toast--success svg {
+    background-color: #1e293b; /* Success color */
+    color: white;
+  }
+  
+  .dark-toast .Toastify__toast--error {
+    background-color: #1e293b; /* Error color */
+    color: white;
+  }
+  .dark-toast .Toastify__toast--success svg {
+    background-color: #1e293b; /* Success color */
+    color: white;
+  }
+  
+  
+  .dark-toast .Toastify__toast--warning {
+    background-color: #1e293b; /* Warning color */
+  }
+  .dark-toast .Toastify__toast--success svg {
+    background-color: #1e293b; /* Success color */
+    color: white;
+  }
+  
